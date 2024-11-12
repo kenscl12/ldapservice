@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LdapAuthorizationService.Common\LdapAuthorizationService.Common.csproj" />
+    <ProjectReference Include="..\LdapAuthorizationService.Repository\LdapAuthorizationService.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

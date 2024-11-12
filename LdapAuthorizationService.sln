@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LdapAuthorizationService", "LdapAuthorizationService\LdapAuthorizationService.csproj", "{E40D6AE3-11CA-4D54-AA4A-69D5D99EEF53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LdapAuthorizationService.Auth", "LdapAuthorizationService.Auth\LdapAuthorizationService.Auth.csproj", "{463623BA-A93D-4F82-8E24-26E99E899DD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LdapAuthorizationService.Common", "LdapAuthorizationService.Common\LdapAuthorizationService.Common.csproj", "{AD1C6DE8-7EB1-4F2A-933E-42192AD9BA7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LdapAuthorizationService.Ldap", "LdapAuthorizationService.Ldap\LdapAuthorizationService.Ldap.csproj", "{B0CCE830-1A52-459B-9935-01D0EEA8CC4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LdapAuthorizationService.Repository", "LdapAuthorizationService.Repository\LdapAuthorizationService.Repository.csproj", "{1B1FC151-8F84-4BA2-A03A-F8BB34D3B0C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LdapAuthorizationService.Users", "LdapAuthorizationService.Roles\LdapAuthorizationService.Users.csproj", "{7DACA4AE-CFDC-4B86-8528-AEB3769CC0F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E40D6AE3-11CA-4D54-AA4A-69D5D99EEF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40D6AE3-11CA-4D54-AA4A-69D5D99EEF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40D6AE3-11CA-4D54-AA4A-69D5D99EEF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40D6AE3-11CA-4D54-AA4A-69D5D99EEF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463623BA-A93D-4F82-8E24-26E99E899DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463623BA-A93D-4F82-8E24-26E99E899DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463623BA-A93D-4F82-8E24-26E99E899DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463623BA-A93D-4F82-8E24-26E99E899DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1C6DE8-7EB1-4F2A-933E-42192AD9BA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1C6DE8-7EB1-4F2A-933E-42192AD9BA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1C6DE8-7EB1-4F2A-933E-42192AD9BA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1C6DE8-7EB1-4F2A-933E-42192AD9BA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CCE830-1A52-459B-9935-01D0EEA8CC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CCE830-1A52-459B-9935-01D0EEA8CC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CCE830-1A52-459B-9935-01D0EEA8CC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CCE830-1A52-459B-9935-01D0EEA8CC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1FC151-8F84-4BA2-A03A-F8BB34D3B0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1FC151-8F84-4BA2-A03A-F8BB34D3B0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1FC151-8F84-4BA2-A03A-F8BB34D3B0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1FC151-8F84-4BA2-A03A-F8BB34D3B0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DACA4AE-CFDC-4B86-8528-AEB3769CC0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DACA4AE-CFDC-4B86-8528-AEB3769CC0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DACA4AE-CFDC-4B86-8528-AEB3769CC0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DACA4AE-CFDC-4B86-8528-AEB3769CC0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB8050BA-BA75-4DB7-98B6-575CDAA79361}
+	EndGlobalSection
+EndGlobal
